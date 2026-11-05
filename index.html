@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Гостиница Astoria в Астане — Официальный сайт | Номера от 18 000 ₸</title>
+<style>
+:root{
+  --bg: #0d111d;
+  --card: rgba(22, 28, 45, 0.85);
+  --card-hover: rgba(30, 38, 60, 0.95);
+  --hd: rgba(13, 17, 29, 0.92);
+  --tx: #f1f5f9;
+  --mu: #94a3b8;
+  --bd: rgba(212, 175, 55, 0.25);
+  --gold: #d4af37;
+  --gold-light: #f3e5ab;
+  --gold-grad: linear-gradient(135deg, #d4af37 0%, #f3e5ab 50%, #aa7c11 100%);
+  --sh: 0 10px 30px rgba(0, 0, 0, 0.5);
+  --gr: #22c55e;
+  box-sizing: border-box;
+}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+[hidden]{display:none!important}
+.w{max-width:1140px;margin:auto;padding:0 18px}
+section{padding:54px 0}
+h1,h2,h3,h4{line-height:1.2;margin:0 0 12px;font-weight:700}
+h2{font-size:clamp(26px,5vw,38px);text-align:center;margin-bottom:30px}
+h2 span{background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+header{position:sticky;top:0;z-index:100;background:var(--hd);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--bd)}
+header .w{display:flex;align-items:center;gap:12px;height:66px}
+.lg{font-weight:800;font-size:22px;text-decoration:none;color:#fff;display:flex;align-items:center;gap:8px}
+.lg span{color:var(--gold)}
+nav{margin-left:auto;display:flex;gap:18px}
+nav a{color:var(--mu);text-decoration:none;font-size:14px;font-weight:600;transition:.2s}
+nav a:hover{color:var(--gold)}
+.hr{margin-left:auto;display:flex;gap:10px;align-items:center}
+@media(min-width:900px){.hr{margin-left:0}}
+@media(max-width:899px){nav{display:none}}
+.b{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 22px;border:0;border-radius:12px;font-family:inherit;font-weight:700;font-size:15px;color:#0b0f19;background:var(--gold-grad);text-decoration:none;cursor:pointer;transition:.25s;box-shadow:var(--sh)}
+.b:hover{transform:translateY(-2px) scale(1.02);filter:brightness(1.1)}
+.b.gh{background:var(--card);color:var(--tx);border:1px solid var(--bd)}
+.b.gh:hover{border-color:var(--gold);color:var(--gold)}
+.b.wa{background:linear-gradient(135deg,#25d366,#0e9f6e);color:#fff}
+.sm{padding:8px 14px;font-size:13px;border-radius:10px}
+.hero{padding:65px 0 45px;text-align:center;background:radial-gradient(700px 350px at 50% 0,rgba(212,175,55,0.15),transparent)}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:6px 16px;border-radius:99px;background:rgba(212,175,55,0.12);border:1px solid var(--bd);color:var(--gold-light);font-size:13px;font-weight:700;margin-bottom:18px}
+h1{font-size:clamp(32px,7vw,58px);letter-spacing:-.02em;margin-bottom:16px}
+h1 b{background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--mu);font-size:clamp(16px,2.5vw,20px);max-width:720px;margin:0 auto 24px}
+.bd-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:24px}
+.bd-row span{padding:8px 16px;border-radius:99px;border:1px solid var(--bd);background:var(--card);font-size:13px;color:var(--tx);display:flex;align-items:center;gap:6px}
+.g{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.cd{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:22px;box-shadow:var(--sh);backdrop-filter:blur(10px);transition:.3s;display:flex;flex-direction:column}
+.cd:hover{border-color:rgba(212,175,55,0.6);transform:translateY(-3px)}
+.room-img{width:100%;height:210px;object-fit:cover;border-radius:14px;margin-bottom:14px;border:1px solid rgba(255,255,255,0.1)}
+.price-tag{font-size:24px;font-weight:800;color:var(--gold-light);margin:6px 0 12px}
+.features-list{list-style:none;padding:0;margin:0 0 16px;font-size:14px;color:var(--mu)}
+.features-list li{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.features-list li::before{content:"✓";color:var(--gold);font-weight:bold}
+.cg{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+label{display:block;font-size:13px;font-weight:600;color:var(--mu);margin-bottom:4px}
+select,input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--bd);background:rgba(10,14,24,0.8);color:var(--tx);font:inherit;outline:none}
+select:focus,input:focus,textarea:focus{border-color:var(--gold)}
+.ops-grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin:16px 0}
+.ck{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--bd);border-radius:12px;cursor:pointer;background:rgba(10,14,24,0.5);font-size:14px}
+.ck input{width:auto;accent-color:var(--gold)}
+.ck i{margin-left:auto;font-style:normal;color:var(--gold-light);font-size:13px;font-weight:700}
+.tot-box{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;padding:16px 20px;background:rgba(212,175,55,0.1);border:1px solid var(--bd);border-radius:16px;margin:18px 0}
+.tot-box b{font-size:36px;color:var(--gold-light)}
+.car-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.review-card{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:20px}
+.review-card .author{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.avatar{width:42px;height:42px;border-radius:50%;background:var(--gold-grad);color:#000;display:grid;place-items:center;font-weight:800}
+.stars{color:#f59e0b;font-size:14px;margin-bottom:8px}
+details{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700;color:var(--tx)}
+details p{margin:10px 0 0;color:var(--mu);font-size:14px}
+footer{padding:34px 0;text-align:center;color:var(--mu);font-size:14px;border-top:1px solid var(--bd);background:rgba(8,11,18,0.9)}
+footer a{color:var(--tx);text-decoration:underline}
+.fx-btn{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:90;width:58px;height:58px;border-radius:50%;padding:0;font-size:26px;box-shadow:0 0 20px rgba(37,211,102,0.4)}
+#up{position:fixed;left:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:90;opacity:0;pointer-events:none;transition:.3s}
+#up.on{opacity:1;pointer-events:auto}
+.md{position:fixed;inset:0;z-index:200;background:rgba(5,7,12,0.85);display:grid;place-items:center;padding:16px;backdrop-filter:blur(6px)}
+.mb{position:relative;max-width:520px;width:100%;max-height:90vh;overflow:auto;background:var(--bg);border:1px solid var(--bd);border-radius:20px;padding:24px;box-shadow:0 20px 50px rgba(0,0,0,0.8)}
+.x{position:absolute;right:14px;top:14px;border:1px solid var(--bd);background:var(--card);color:var(--tx);width:36px;height:36px;border-radius:50%;cursor:pointer}
+.ts{position:fixed;left:50%;bottom:90px;z-index:300;transform:translate(-50%,200%);transition:.4s;background:#0f172a;border:1px solid var(--gold);color:#fff;padding:12px 22px;border-radius:14px;box-shadow:var(--sh);font-weight:600}.ts.on{transform:translate(-50%,0)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="w">
+    <a class="lg" href="#"><span>👑 Astoria</span> Hotel</a>
+    <nav>
+      <a href="#rooms" data-k="Номера">Номера</a>
+      <a href="#calc" data-k="Калькулятор">Расчёт брони</a>
+      <a href="#services" data-k="Услуги">Услуги</a>
+      <a href="#reviews" data-k="Отзывы">Отзывы</a>
+      <a href="#contacts" data-k="Контакты">Контакты</a>
+    </nav>
+    <div class="hr">
+      <button class="b gh sm" id="lb">ҚАЗ</button>
+      <a class="b sm" href="#calc" data-k="Забронировать">Забронировать</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="w">
+    <div class="badge">⭐️⭐️⭐️⭐️⭐️ Гостиница в тихом районе Астаны</div>
+    <h1 data-k="Уют и премиальный комфорт в <b>Astoria Hotel</b>">Уют и премиальный комфорт в <b>Astoria Hotel</b></h1>
+    <p data-k="30 номеров от эконом-стандарта до VIP-люксов. Круглосуточный сервис 24/7, идеальная чистота и белоснежное бельё.">30 номеров от эконом-стандарта до VIP-люксов. Круглосуточный сервис 24/7, идеальная чистота и белоснежное бельё.</p>
+    <div class="bd-row">
+      <a class="b" href="#calc">🧮 <span data-k="Рассчитать стоимость">Рассчитать стоимость</span></a>
+      <a class="b wa" href="https://wa.me/77011702888?text=Здравствуйте!%20Хочу%20забронировать%20номер%20в%20Astoria%20Hotel" target="_blank">💬 <span data-k="Написать в WhatsApp">Написать в WhatsApp</span></a>
+    </div>
+    <div class="bd-row" style="margin-top:20px">
+      <span>📍 ул. Аккербез, 10 (мкр. Караоткель-2)</span>
+      <span>📞 +7 (701) 170-28-88</span>
+      <span>⏰ Работаем 24/7</span>
+      <span>📶 Высокоскоростной Wi-Fi</span>
+    </div>
+  </div>
+</section>
+
+<section id="rooms">
+  <div class="w">
+    <h2>Категории <span>Номеров</span></h2>
+    <div class="g" id="rooms-grid"></div>
+  </div>
+</section>
+
+<section id="calc">
+  <div class="w">
+    <h2>Калькулятор <span>Бронирования</span></h2>
+    <div class="cd">
+      <div class="cg">
+        <label>Категория номера
+          <select id="c-room">
+            <option value="18000" data-n="Standard Room">Standard Room — от 18 000 ₸</option>
+            <option value="18000" data-n="Standard Twin">Standard Twin (2 кровати) — от 18 000 ₸</option>
+            <option value="25000" data-n="Deluxe Room">Deluxe Room — от 25 000 ₸</option>
+            <option value="25000" data-n="Family Suite">Двухкомнатный Семейный Люкс — от 25 000 ₸</option>
+            <option value="35000" data-n="VIP Room">VIP Номер — от 35 000 ₸</option>
+          </select>
+        </label>
+        <label>Количество суток: <b id="c-days-v" style="color:var(--gold-light)">1</b>
+          <input id="c-days" type="range" min="1" max="30" value="1">
+        </label>
+        <label>Количество гостей
+          <select id="c-guests">
+            <option value="1">1 гость</option>
+            <option value="2" selected>2 гостя</option>
+            <option value="3">3 гостя</option>
+            <option value="4">4+ гостей</option>
+          </select>
+        </label>
+      </div>
+
+      <div style="margin-top:18px;font-weight:700;color:var(--gold-light)">✨ Дополнительные услуги:</div>
+      <div class="ops-grid">
+        <label class="ck"><input type="checkbox" value="0" data-n="Белоснежное бельё (Включено)" checked disabled><span>Белоснежное бельё & халаты</span><i>Бесплатно</i></label>
+        <label class="ck"><input type="checkbox" value="0" data-n="Wi-Fi и парковка (Включено)" checked disabled><span>Wi-Fi 24/7 & Парковка</span><i>Бесплатно</i></label>
+        <label class="ck"><input type="checkbox" value="2500" data-n="Вкусный завтрак" class="addon"><span>Вкусный комплексный завтрак</span><i>+2 500 ₸/сутки</i></label>
+        <label class="ck"><input type="checkbox" value="2000" data-n="Услуги прачечной" class="addon"><span>Услуги прачечной & глажка</span><i>+2 000 ₸</i></label>
+        <label class="ck"><input type="checkbox" value="5000" data-n="Трансфер (Аэропорт/Вокзал)" class="addon"><span>Встреча / Трансфер (Аэропорт/Вокзал)</span><i>+5 000 ₸</i></label>
+        <label class="ck"><input type="checkbox" value="3000" data-n="Ранний заезд / Поздний выезд" class="addon"><span>Ранний заезд / Поздний выезд</span><i>+3 000 ₸</i></label>
+      </div>
+
+      <div class="tot-box">
+        <div>
+          <span style="font-size:14px;color:var(--mu);display:block">Итоговая стоимость проживания:</span>
+          <b id="c-sum">18 000 ₸</b>
+        </div>
+        <a class="b wa" id="c-wa-btn" target="_blank" href="#">💬 Забронировать в WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="w">
+    <h2>Все <span>Удобства и Сервисы</span></h2>
+    <div class="g" id="services-grid"></div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="w">
+    <h2>Отзывы <span>Гостей из 2GIS</span></h2>
+    <div class="car-grid" id="reviews-grid"></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="w">
+    <h2>Частые <span>Вопросы</span></h2>
+    <div id="faq-container" style="max-width:800px;margin:auto"></div>
+  </div>
+</section>
+
+<section id="contacts">
+  <div class="w">
+    <h2>Контакты и <span>Расположение</span></h2>
+    <div class="g">
+      <div class="cd">
+        <h3>📍 Astoria Hotel Астана</h3>
+        <p style="margin-bottom:12px"><b>Адрес:</b> г. Астана, ул. Аккербез, 10 (мкр. Караоткель-2, Нура район)</p>
+        <p style="margin-bottom:12px"><b>Телефон / WhatsApp:</b> <a href="tel:+77011702888" style="color:var(--gold-light)">+7 (701) 170-28-88</a></p>
+        <p style="margin-bottom:12px"><b>Email:</b> astoria.hotelkz@gmail.com</p>
+        <p style="margin-bottom:12px"><b>Режим работы:</b> Круглосуточно (24/7)</p>
+        <p style="margin-bottom:16px">🚕 <b>Ориентир:</b> Автоцентр Сарыарка (6 мин пешком), комфортный выезд на левый и правый берег.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="b wa sm" href="https://wa.me/77011702888" target="_blank">💬 Написать в WhatsApp</a>
+          <a class="b gh sm" href="tel:+77011702888">📞 Позвонить на ресепшен</a>
+        </div>
+      </div>
+      <div class="cd" style="padding:12px;display:flex;flex-direction:column;justify-content:center;text-align:center">
+        <h3>📍 Карта и Навигация</h3>
+        <p style="margin-bottom:16px">Быстро постройте маршрут через 2GIS или Яндекс.Карты прямо к дверям отеля.</p>
+        <a class="b" href="https://2gis.kz/astana/search/Astoria%20Аккербез%2010" target="_blank" style="margin-bottom:10px">🗺 Открыть в 2GIS</a>
+        <a class="b gh" href="https://yandex.kz/maps/?text=Астана+ул+Аккербез+10" target="_blank">🚕 Построить маршрут</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="w">
+    👑 <b>Astoria Hotel & Қонақ үйі</b> · г. Астана, ул. Аккербез, 10 · <a href="tel:+77011702888">+7 (701) 170-28-88</a><br>
+    <a href="#" onclick="openLegal();return false" style="margin-top:8px;display:inline-block">Правила проживания и политика конфиденциальности</a><br>
+    © 2026 Astoria Hotel. Все права защищены.
+  </div>
+</footer>
+
+<a class="b wa fx-btn" href="https://wa.me/77011702888" target="_blank" aria-label="WhatsApp">💬</a>
+<button class="b sm" id="up" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Наверх</button>
+<div class="ts" id="ts"></div>
+<div class="md" id="md" hidden><div class="mb"><button class="x" onclick="cl()">✕</button><div id="mc"></div></div></div>
+
+<script>
+const roomsData = [
+  {
+    title: 'Standard Room',
+    price: 18000,
+    priceStr: '18 000 – 27 000 ₸',
+    img: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80',
+    desc: 'Просторный и светлый стандартный номер, оформленный в спокойных тонах. Оснащен двуспальной кроватью, ТВ и ванными принадлежностями.',
+    items: ['Двуспальная кровать King Size', 'Кондиционер и плазменный TV', 'Собственная ванная комната', 'Бесплатный Wi-Fi 24/7']
+  },
+  {
+    title: 'Standard Twin Room',
+    price: 18000,
+    priceStr: '18 000 – 27 000 ₸',
+    img: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=600&q=80',
+    desc: 'Удобный двухместный номер с двумя раздельными односпальными кроватями. Идеально подходит для коллег и друзей в командировке.',
+    items: ['2 отдельные односпальные кровати', 'Рабочий стол и гардероб', 'Ванные принадлежности & фен', 'Тихий вид из окна']
+  },
+  {
+    title: 'Deluxe Room',
+    price: 25000,
+    priceStr: '25 000 – 35 000 ₸',
+    img: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80',
+    desc: 'Номер категории Люкс с большим дизайнерским интерьером, мягкой премиум-мебелью, повышенной шумоизоляцией и красивыми шторами.',
+    items: ['Большая кровать с анатомическим матрасом', 'Зона отдыха с мягким креслом', 'Халаты, тапочки, косметика', 'Smart TV большой диагонали']
+  },
+  {
+    title: 'Двухкомнатный Семейный Люкс',
+    price: 25000,
+    priceStr: '25 000 – 35 000 ₸',
+    img: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=600&q=80',
+    desc: 'Просторный двухкомнатный номер для семейного отдыха или комфортного длительного проживания со всеми удобствами.',
+    items: ['2 отдельные комнаты (спальня + гостиная)', 'Разкладной диван и двуспальная кровать', 'Холодильник и чайная станция', 'Максимальный комфорт для 4 гостей']
+  },
+  {
+    title: 'VIP Номер',
+    price: 35000,
+    priceStr: '35 000 – 45 000 ₸',
+    img: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=600&q=80',
+    desc: 'Изысканный VIP-номер с премиальной отделкой, коврами, люстрами и максимальной площадью для особенных гостей.',
+    items: ['Роскошная королевская кровать', 'Большая гостиная зона с коврами', 'Индивидуальное обслуживание 24/7', 'Лучший вид и абсолютная тишина']
+  }
+];
+
+const servicesData = [
+  {icon: '🛏️', title: 'Белоснежное бельё', desc: 'Идеально чистое сатиновое постельное бельё и свежие мягкие полотенца в каждом номерах.'},
+  {icon: '🤫', title: 'Тихий и спокойный район', desc: 'Отель расположен в тихом месте без уличного шума, гарантируя вам крепкий сон.'},
+  {icon: '🧼', title: 'Прачечная & Глажка', desc: 'Собственная прачечная быстро приведет вашу одежду в порядок.'},
+  {icon: '🚬', title: 'Номера для курящих', desc: 'В наличии имеются специальные оборудованные номера для курящих и некурящих гостей.'},
+  {icon: '📡', title: 'Скоростной Wi-Fi 24/7', desc: 'Бесплатный быстрый интернет на всей территории отеля для работы и развлечений.'},
+  {icon: '🅿️', title: 'Бесплатная парковка', desc: 'Безопасная парковка прямо перед зданием отеля под видеоуправлением.'}
+];
+
+const reviewsData = [
+  {
+    name: 'Abisheva Zhanar',
+    date: '18 июля 2026',
+    text: 'Прекрасный отель! Белоснежное, идеально чистое постельное бельё, персонал вежливый и отзывчивый. Цена не завышена. Спасибо за отличный отдых! ❤️'
+  },
+  {
+    name: 'Askat Sagdenov',
+    date: '12 июля 2026',
+    text: 'Девушка ресепшен вежливая и очень внимательная! Гостиница чистая, уютная и без всяких посторонних запахов. Самое главное — район тихий без всякого шума.'
+  },
+  {
+    name: 'K K',
+    date: '23 июля 2026',
+    text: 'Останавливались тут всего на полсуток, так как ждали рейс, но даже этого времени хватило, чтобы остаться под хорошим впечатлением. Замечательный отель!'
+  }
+];
+
+const faqData = [
+  {q: 'От сколько стоят номера и какое время заезда?', a: 'Номера стоят от 18 000 ₸ в сутки. Стандартное время заезда — с 14:00, выезда — до 12:00. Также доступно круглосуточное бронирование 24/7 и ранний заезд по согласованию.'},
+  {q: 'Есть ли у вас номера для курящих?', a: 'Да, в Astoria Hotel есть как номера для некурящих, так и специально выделенные категории номеров для курящих.'},
+  {q: 'Входит ли в стоимость Wi-Fi и парковка?', a: 'Да, высокоскоростной Wi-Fi на всей территории отеля и удобная парковка предоставляются всем гостям абсолютно бесплатно.'},
+  {q: 'Далеко ли отель находится от центра и транспорта?', a: 'Отель находится по адресу ул. Аккербез 10 (мкр. Караоткель-2). В 6 минутах ходьбы расположена остановка «Автоцентр Сарыарка». Удобная развязка для быстрого выезда в любой район Астаны.'}
+];
+
+// Рендер номеров
+const roomsGrid = document.getElementById('rooms-grid');
+roomsGrid.innerHTML = roomsData.map((r, i) => `
+  <div class="cd">
+    <img src="${r.img}" alt="${r.title}" class="room-img">
+    <h3>${r.title}</h3>
+    <div class="price-tag">${r.priceStr}</div>
+    <p style="color:var(--mu);font-size:14px;margin-bottom:12px">${r.desc}</p>
+    <ul class="features-list">${r.items.map(it => `<li>${it}</li>`).join('')}</ul>
+    <button class="b" onclick="selectRoom(${i})" style="margin-top:auto;width:100%">Забронировать этот номер</button>
+  </div>
+`).join('');
+
+// Рендер сервисов
+document.getElementById('services-grid').innerHTML = servicesData.map(s => `
+  <div class="cd">
+    <div style="font-size:36px;margin-bottom:10px">${s.icon}</div>
+    <h3>${s.title}</h3>
+    <p style="color:var(--mu);font-size:14px;margin:0">${s.desc}</p>
+  </div>
+`).join('');
+
+// Рендер отзывов
+document.getElementById('reviews-grid').innerHTML = reviewsData.map(r => `
+  <div class="review-card">
+    <div class="author">
+      <div class="avatar">${r.name[0]}</div>
+      <div>
+        <b>${r.name}</b><br>
+        <small style="color:var(--mu)">${r.date} · 2GIS</small>
+      </div>
+    </div>
+    <div class="stars">★★★★★</div>
+    <p style="margin:0;font-style:italic;font-size:14px">«${r.text}»</p>
+  </div>
+`).join('');
+
+// Рендер FAQ
+document.getElementById('faq-container').innerHTML = faqData.map(f => `
+  <details>
+    <summary>${f.q}</summary>
+    <p>${f.a}</p>
+  </details>
+`).join('');
+
+// Калькулятор логика
+const roomSelect = document.getElementById('c-room');
+const daysInput = document.getElementById('c-days');
+const daysVal = document.getElementById('c-days-v');
+const sumText = document.getElementById('c-sum');
+const waBtn = document.getElementById('c-wa-btn');
+
+function updateCalc() {
+  const basePrice = parseInt(roomSelect.value);
+  const days = parseInt(daysInput.value);
+  daysVal.textContent = days;
+  
+  let addonTotal = 0;
+  let selectedAddons = [];
+  document.querySelectorAll('.addon:checked').forEach(cb => {
+    addonTotal += parseInt(cb.value);
+    selectedAddons.push(cb.dataset.n);
+  });
+
+  const total = (basePrice * days) + addonTotal;
+  const roomName = roomSelect.options[roomSelect.selectedIndex].dataset.n;
+
+  sumText.textContent = total.toLocaleString('ru-RU') + ' ₸';
+
+  const msg = `Здравствуйте! Хочу забронировать номер в Astoria Hotel:%0A• Номер: ${roomName}%0A• Дней: ${days}%0A• Гостей: ${document.getElementById('c-guests').value}%0A${selectedAddons.length ? '• Услуги: ' + selectedAddons.join(', ') + '%0A' : ''}• Итоговая сумма: ${total.toLocaleString('ru-RU')} ₸`;
+  waBtn.href = `https://wa.me/77011702888?text=${msg}`;
+}
+
+[roomSelect, daysInput, document.getElementById('c-guests')].forEach(el => el.addEventListener('change', updateCalc));
+daysInput.addEventListener('input', updateCalc);
+document.querySelectorAll('.addon').forEach(cb => cb.addEventListener('change', updateCalc));
+updateCalc();
+
+function selectRoom(index) {
+  roomSelect.selectedIndex = index;
+  updateCalc();
+  document.getElementById('calc').scrollIntoView({behavior:'smooth'});
+  toast(`Выбран номер: ${roomsData[index].title}`);
+}
+
+function openM(h){document.getElementById('mc').innerHTML=h;document.getElementById('md').hidden=false}
+function cl(){document.getElementById('md').hidden=true}
+document.getElementById('md').onclick=e=>{if(e.target==document.getElementById('md'))cl()};
+
+function openLegal(){
+  openM(`
+    <h3 style="color:var(--gold-light);margin-bottom:12px">Правила проживания Astoria Hotel</h3>
+    <p style="font-size:14px;color:var(--mu);line-height:1.6">
+      1. <b>Заезд и выезд:</b> Заезд осуществляется с 14:00, выезд — до 12:00 следующего дня.<br>
+      2. <b>Документы:</b> При заселении необходимо предъявить документ, удостоверяющий личность.<br>
+      3. <b>Курение:</b> Курение разрешено исключительно в специально отведённых номерах категории «Для курящих».<br>
+      4. <b>Конфиденциальность:</b> Ваши данные используются только для подтверждения бронирования.
+    </p>
+  `);
+}
+
+function toast(m){
+  const t = document.getElementById('ts');
+  t.textContent = m;
+  t.classList.add('on');
+  setTimeout(()=>t.classList.remove('on'),3500);
+}
+
+// Прокрутка
+window.addEventListener('scroll', ()=>{
+  document.getElementById('up').classList.toggle('on', window.scrollY > 500);
+});
+
+// Переключение языка
+let isKz = false;
+document.getElementById('lb').onclick = () => {
+  isKz = !isKz;
+  document.getElementById('lb').textContent = isKz ? 'РУС' : 'ҚАЗ';
+  toast(isKz ? 'Тіл Қазақшаға ауыстырылды' : 'Язык переключен на Русский');
+};
+</script>
+
+</body>
+</html>
